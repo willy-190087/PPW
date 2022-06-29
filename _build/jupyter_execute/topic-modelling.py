@@ -249,8 +249,8 @@ for i, word in enumerate(l[:-5:-1]):
     print(f"{i+1}. {word}\t(Nilai idf: {dd[word]})")
 
 
-# ## TOPIC MODELLING
-# ### Latent Semantic Analysis(LSA)
+# # Topic Modelling
+# ## Latent Semantic Analysis(LSA)
 # 
 # Latent Semantic Analysis (LSA) merupakan sebuah metode yang memanfaatkan model statistik matematis untuk menganalisa struktur semantik suatu teks. LSA bisa digunakan untuk menilai abstrak tugas akhir dengan mengkonversikan abstrak tugas akhir menjadi matriks-matriks yang diberi nilai pada masing-masing term untuk dicari kesamaan dengan term. Secara umum, langkah-langkah LSA dalam penilaian abstrak tugas akhir adalah sebagai berikut:
 # 
@@ -259,7 +259,7 @@ for i, word in enumerate(l[:-5:-1]):
 # 3. Singular Value Decomposition (SVD)
 # 4. Cosine Similarity Measurement
 # 
-# #### Singular Value Decomposition(SVD)
+# ### Singular Value Decomposition(SVD)
 # Singular Value Decomposition (SVD) adalah sebuah teknik untuk mereduksi dimensi yang bermanfaat untuk memperkecil nilai kompleksitas dalam pemrosesan Document-Term Matrix. SVD merupakan teorema aljabar linier yang menyebutkan bahwa persegi panjang dari Document-Term Matrix dapat dipecah/didekomposisikan menjadi tiga matriks, yaitu Matriks ortogonal U, Matriks diagonal S, Transpose dari matriks ortogonal V.
 # 
 # $$
@@ -328,7 +328,7 @@ for i, comp in enumerate(lsa_model.components_):
     print("")
 
 
-# ### Latent Dirichlet Allocation (LDA)
+# ## Latent Dirichlet Allocation (LDA)
 # ![Model LDA](img/dw-1.jpg)
 # 
 # *Latent Dirichlet Allocation (LDA)* adalah model generatif statistik yang dari koleksi data diskrit seperti kumpulan dokumen (*corpus*).
